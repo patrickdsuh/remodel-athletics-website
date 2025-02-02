@@ -1,38 +1,47 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    background-color: #f4f4f4;
-}
-
-header {
-    background: #222;
-    color: white;
-    padding: 20px;
-}
-
-.cta-button {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 10px 20px;
-    background: #ff6600;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-section {
-    padding: 40px;
-    background: white;
-    margin: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-footer {
-    background: #222;
-    color: white;
-    padding: 10px;
-    margin-top: 20px;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remodel Athletics</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Remodel Athletics</div>
+            <ul>
+                <li><a href="#about">Our Story</a></li>
+                <li><a href="#programs">Programs</a></li>
+                <li><a href="#get-involved">Get Involved</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>Empowering Amateur Athletes</h1>
+            <p>Fostering mentorship, community, and support to help athletes thrive.</p>
+            <a href="#about" class="cta-button">Learn More</a>
+        </div>
+    </header>
+    
+    <section id="about">
+        <h2>Our Mission</h2>
+        <p>Remodel Athletics is a 501(c)(3) non-profit organization based in Los Angeles, dedicated to supporting amateur athletes. We foster meaningful connections, encourage mentorship, and establish fundraising efforts to support student-athletes in need.</p>
+    </section>
+    
+    <section id="programs">
+        <h2>Our Programs</h2>
+        <p>We provide training, mentorship, and resources to help amateur athletes succeed both on and off the field.</p>
+    </section>
+    
+    <section id="get-involved">
+        <h2>Get Involved</h2>
+        <p>Join our mission to support student-athletes. Volunteer, donate, or spread the word.</p>
+        <a href="#contact" class="cta-button">Join Us</a>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Remodel Athletics | <a href="#contact">Contact Us</a></p>
+    </footer>
+</body>
+</html>
